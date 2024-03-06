@@ -22,7 +22,7 @@ header img {
 .container {
     width: 1300px;
     margin: 0 auto;
-} 
+}
 
 header {
     background-color: #F3D7B7;
@@ -129,7 +129,7 @@ footer .container img {
 footer ul {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 30px;
 }
 
 footer ul a {
@@ -165,4 +165,80 @@ footer ul a {
     to {
         transform: translateY(0);
     }
+}
+
+.about .container {
+    display: flex;
+}
+
+.about {
+    background-color: #F3D7B7;
+}
+
+.commitment .container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding: 30px;
+}
+
+.container .left h1 {
+    font-size: 52px;
+    animation-name: slideX;
+    animation-duration: 2s;
+    z-index: 2;
+}
+
+.container .left p {
+    line-height: 22px;
+    margin-bottom: 50px;
+    animation-name: slidex;
+    animation-duration: 2s;
+}
+
+.commitment .container .left h2 {
+    font-size: 52px;
+    animation-name: slideX;
+    animation-duration: 2s;
+    z-index: 2;
+}
+
+.commitment .container .left p {
+    line-height: 22px;
+    margin-bottom: 50px;
+    animation-name: slidex;
+    animation-duration: 2s;
+}
+
+.about .label {
+    position: absolute;
+    top: -25;
+    left: 600px;
+}
+
+.commitment .container .right {
+    align-items: center;
+}
+
+.quality .container {
+    display: flex;
+}
+
+.quality {
+    background-color:#C99B67;
+}
+
+.imgescoffee {
+    position: relative;
+    top: -100px;
+}
+
+.quality .container .left h2 {
+    font-size: 52px;
+    color: white;
+}   
+
+.text1 {
+     color: white;
+     line-height: 22px;
 }
